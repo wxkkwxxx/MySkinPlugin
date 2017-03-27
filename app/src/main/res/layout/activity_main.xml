@@ -11,9 +11,21 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="skin1"
+        android:text="恢复默认"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jump"
+        android:text="跳转"/>
+
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/bilibili"/>
 </LinearLayout>
